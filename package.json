@@ -1,0 +1,17 @@
+{
+  "name": "e2e-test-examples",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js --timeout 60000"
+  },
+  "author": "bappy.besra@cccul.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "assert": "2.1.0",
+    "dotenv": "^16.4.5",
+    "selenium-webdriver": "^4.22.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.5.1"
+  }
+}
